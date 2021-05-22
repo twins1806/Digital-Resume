@@ -1,0 +1,22 @@
+form{
+    background-color: skyblue;
+}
+label, input, select {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0%;
+    height: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+label {
+    padding-right: 100px;
+}
+.Header{
+    text-decoration: underline;
+    margin: 50px;}
+ #submit{
+        background-color: tomato;
+    }
+    
