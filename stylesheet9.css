@@ -1,11 +1,11 @@
-@media only screen and(min-width:250px) 
+@media only screen and(min-width:650px) 
 {/* Code for mobile devices less than 650px*/ 
     body,html { 
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     margin: 0%;
     height: 100%;
-    display: block;
+    display:grid;
     font-weight: 900;
     
     }
@@ -18,7 +18,7 @@
     color: black;
     margin: 0%;
     height: 100%;
-    display: block;
+    display: grid;
     font-weight: 900;
    
     }
@@ -26,18 +26,22 @@
 
 @media only screen and(min-width:1400px) 
 {/* Code for large devices 1400px and up*/ 
-    body,html { 
+    body { 
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     margin: 0%;
     height: 100%;
-    display: block;
-    font-weight: 900;
-  
+    display:grid;
+   
 }
 }
 
-
+.grid-container{
+    display: grid;
+    /* Specify size for each column*/
+    grid-template-rows: auto,auto,auto,auto,auto,auto;
+    padding: 10px;
+}
 
 
 html, body, .background1{      
@@ -51,62 +55,38 @@ html, body, .background1{
     background-size: 1000px;  
     background-position: center;
     background-repeat: no-repeat;
-    display: grid;
-    grid: 1em;
-    grid-auto-rows: inherit;
-    overflow: auto;
-    height: fit-content;
+    
+    
 
    }
-     
 
 header{
     background-color: lightseagreen;
     padding: 10px;
-    display: grid;
-    grid: 1em;
-    grid-auto-rows: inherit;
-    overflow: auto;
-    height: fit-content;
+    
+    
 
 }
 .heading{
     text-align: center;
     text-decoration: underline;
-    display: grid;
-    grid: 1em;
-    grid-auto-rows: inherit;
-    overflow: auto;
-    height: fit-content;
+  
     
-}
-#about-section {
-    display: grid;
-    grid: 1em;
-    grid-auto-rows: inherit;
-    overflow: auto;
-    height: fit-content;
 }
 
 .wrapper{
     background-color: lightgrey;
     display: inline-flex;
     height: auto;
-    
-    
-   
-    }
+   }
 
 .Sidebar{
     width: 25%;
-    height: 100%;
     background-color: lightgreen;
-    display: grid;
-    grid: 100%;
-    grid-auto-columns: minmax(200px auto);
     border: 100px, solid black;
     margin: 50px;
-    overflow: auto;
+    margin-right: 50px;
+    margin-left: 50px;
   
     
     
@@ -119,21 +99,11 @@ header{
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 10%;
-    max-width: 100%;
-    height: auto;
-   
-    
-
-
-}
+    }
 .Menu{
-   width: 100%;
+   padding: 20px;
     text-align: center;
-    display: grid;
-    grid: 0.5em;
-    grid-auto-rows: minmax(200px auto);
-    
-    
+   
 }
 .Content-Info{
     width: 70%;
@@ -155,10 +125,7 @@ header{
     list-style-type: none;
     padding: 10px;
     text-align: center;
-    display: grid;
-    grid: 0.5em;
-    grid-auto-rows: minmax(200px auto);
-    
+   
 }
 .links{
     color: black;
@@ -171,19 +138,12 @@ a.links:hover {
 
 
 #interests-section, #Skills{
-    display: grid;
+   
     float: left;
     width: 50%;
-    grid: 0.5em;
-    grid-auto-columns: max-content;
-    
-       
-}
+   }
 #experience-section{
-   display: grid;
-   grid: 1em;
-    clear: both;
-    grid-auto-rows: auto;
+   clear: both;
 }
 .set-width{
     width: 100px;
@@ -215,23 +175,15 @@ a.links:hover {
         background-color: lightsteelblue;
         color: black;
         width: 50%;
-        display: grid;
+        display:inline-block;
         height: 100%;
         border: 10px, solid black;
         margin: 7px;
         padding: 5px;
-        grid: 1em;
-        grid-auto-rows: minmax(200px auto);
-        overflow: auto;
-
-    }
+      }
     h3{
         text-decoration: underline;
-        grid: 1em;
-        display: grid;
-        grid-auto-rows: minmax(200px auto);
-        overflow:auto;
-    }
+        }
     
 .footer{
     background-color: lightskyblue;
