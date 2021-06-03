@@ -1,0 +1,20 @@
+/*The Animation Code */
+@keyframes divImage{
+    0%{transform: translateY(200px);}
+    25%{filter: opacity(40%);}
+    50%{ border-radius: 100%;}
+    100%{ transform: rotate(90deg);}
+}
+
+
+/* The Element to Apply Animation To */
+div  {
+    width: 100px;
+    height: 100px;
+    animation-name: divImage;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+        
+}
