@@ -5,16 +5,18 @@
     <title> Gianluca Mugnaioni Resume</title>
     <meta charset="utf-8">
     <meta name="Viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./static/css/stylesheet.css">
 </head>
 
 <body>
     <header class="header" id="headertxt">
         <hgroup>
-            <h1 class="mx-md-5">Gianluca Mugnaioni</h1>
-            <h2 class="mx-md-5">Web Developer</h2>
+            <p class="h1">Gianluca Mugnaioni</p>
+            <p class="h2 text-muted">Web Developer</p>
+            <p class="text center"></p>
+
         </hgroup>
     </header>
 
@@ -27,20 +29,24 @@
                 <div class="wrapper">
 
                     <!--Sidebar-->
+                    
                     <div class="Sidebar">
 
 
                         <!-- Profile Image-->
 
                         <picture>
-                            <source srcset="./static/images/face.jpg" media="(max-width 650px)">
-                            <source srcset="./static/images/shoulder.jpg" media="(max-width 1500px)">
-                            <img src="./static/images/original.jpg" alt="Profile Picture" class="profile-picture"
+                            <source src="./static/images/face.jpg" class="img-fluid">
+                            <source srcset="./static/images/shoulder.jpg" class="img-fluid">
+                            <img src="./static/images/original.jpg" class="img-fluid" alt="Responsive image"
                                 id="profanim">
+
+
                         </picture>
                         <!--Menu-->
+                        
                         <div class="Menu">
-                            <h1 class="title"> Menu</h1>
+                            <h3 class="display-3"> Menu</h3>
                             <ul class="menu-ul">
                                 <li class="menulist"><a href="#about-section" class="links">About Me</a></li>
                                 <li class="menulist"><a href="#interests-section" class="links">Interests</a></li>
@@ -59,7 +65,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <section id="about-section">
-                                    <h3 class="mx-md-5"> About Me:</h3>
+                                    <h3 class="display-3"> About Me:</h3>
                                     <p> I am in my 40's and always trying ways of improving myself.
                                         Either through studying and researching to keep my mind fresh.
                                         I have two young teen-age girls and would also like to prove
@@ -74,7 +80,7 @@
 
                             <section id="interests-section">
                                 <div class="box">
-                                    <h3>Interests:</h3>
+                                    <h3 class="display-3"> Interests:</h3>
                                     <ul>
                                         <li> Tecnology</li>
                                         <li> Soccer</li>
@@ -90,17 +96,17 @@
                         <div class="container-fluid">
 
                             <section id="Skills">
-                                <h3>Skills:</h3>
-                                <img src="./static/images/SAFA.png" alt="SAFA icon"
-                                    style="max-width: 30%;height: auto;">
+                                <h3 class="display-3"> Skills:</h3>
+                                <img src="./static/images/SAFA.png" alt="SAFA icon" style="max-width: 30%;height: auto;"
+                                    class="float-left">
                                 <img src="./static/images/Thermo.png" alt="Thermo icon"
-                                    style="max-width: 30%; height: auto;">
+                                    style="max-width: 30%; height: auto;" class="float-left">
                             </section>
 
                         </div>
                         <div class="container-fluid">
                             <section id="experience-section">
-                                <h3 class="mx-md-5">Experience:</h3>
+                                <h3 class="display-3">Experience:</h3>
                                 <div class="inline-flex">
                                     <span class="set-width">2003-Current</span>
                                     <ul class="ul-list">
@@ -134,7 +140,7 @@
                             </section>
                             <div class="container-fluid">
                                 <section id="education-section">
-                                    <h3> Education:</h3>
+                                    <h3 class="display-3"> Education:</h3>
                                     <div class="inline-flex">
                                         <span class="set-width"> 1997</span>
                                         <ul class="ul-list">
@@ -167,7 +173,7 @@
                                 <div class="container-fluid">
                                     <section id="activities">
                                         <div class="box2">
-                                            <h3> Activities:</h3>
+                                            <h3 class="display-3">Activities:</h3>
                                             <ol class="ol-list">
                                                 <li> Social work</li>
                                                 <li> Avid researcher any topic</li>
@@ -184,10 +190,18 @@
 
 
                 </div>
-
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -199,23 +213,20 @@
 
                 <h3 id="social-media"> Contact Me</h3>
                 <a href="tel +27828075076" target="_blank" class="padding"><img src="./static/images/cell.png"
-                        alt="cell" width="40"></a>
+                        alt="cell" width="40" class="img-thumbnail"></a>
                 <a href="https://www.gmail.com/" target="_blank" class="padding"> <img
-                        src="./static/images/gmail-icon.png" alt="mail" width="40"></a>
+                        src="./static/images/gmail-icon.png" alt="mail" width="40" class="img-thumbnail"></a>
                 <a href="https://www.linkedin.com/" target="blank" class="padding"><img src="./static/images/linked.png"
-                        alt="linked-in" width="40"></a>
+                        alt="linked-in" width="40" class="img-thumbnail"></a>
         </div>
     </div>
     </footer>
     <!--Optional Java Script-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
 </body>
 
