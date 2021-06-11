@@ -50,19 +50,25 @@ html, body{
    
 }
 @keyframes animation{
-    from{background-color: rgb(242, 244, 247);}
-    to{background-color: lightseagreen;}
+    from{background-color: rgba(211, 211, 211, 0.192);}
+    to{background-color: rgba(211, 211, 211, 0.795);}
 }
 #headertxt{
     animation-name: animation;
     animation-duration: 7s;
 }
 header{
-    background-color: lightseagreen;
+    background-color:rgba(211, 211, 211, 0.795);
     padding: 10px;
     padding-left: 0px;
     text-align: center;
     text-decoration: underline;
+}
+.btn {
+    background: lightslategray;
+    border-color: black;
+    
+
 }
 #about-section{
     width: 100%;
@@ -72,11 +78,12 @@ header{
         padding: 5px;
 }
 .background1{
-    background:lightgrey url(https://supersportunited.co.za/media/1416/mtn8-q.jpg?anchor=center&mode=crop&width=750&height=450&rnd=132155304680000000);  
+    background:rgb(211, 211, 211) url(https://supersportunited.co.za/media/1416/mtn8-q.jpg?anchor=center&mode=crop&width=750&height=450&rnd=132155304680000000);  
     background-size: 100%;  
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+    font-weight: 800;
 
 }
 
@@ -157,19 +164,19 @@ a.links:hover {
    clear: both;
 }
 .set-width{
-    width: 200px;
+    width: 400px;
     display:inline-flex;
 }
 .ul-list{
-    margin: 40px;
+    margin: 50px;
     list-style: none;
     line-height: 1.2;
-    margin-bottom: 50px;
+    
 }
 .ol-list{
     list-style: none;
     line-height: 1.2;
-    text-align: center;
+    margin: 50px;
     
 }
 .ul-list li:first-child{
@@ -183,7 +190,7 @@ a.links:hover {
     display: inline-flex;
 }
     .box{
-        background-color: lightsteelblue;
+        background-color: rgb(221, 227, 235);
         color: black;
         width: 75%;
         display:inline-block;
@@ -192,22 +199,9 @@ a.links:hover {
         margin: 0px;
         padding: 5px;
       }
-    .box2{
-        background-color: rgb(233, 239, 241);
-        color: black;
-        width: 100%;
-        display:inline-block;
-        height: 100%;
-        border: 10px, solid black;
-        margin: 0px;
-        padding: 5px;
-    }
+    
       
-    h3{
-        text-decoration: underline;
-        text-align: center;
-        
-        }
+   
         .footer{
             background-color: lightskyblue;
             text-align: center;
@@ -215,11 +209,14 @@ a.links:hover {
             padding: 15px;
             width: 100%;
             
+            
+            
         }
         .get-in-touch {
             max-width: 100%;
             margin: auto;
             position: relative;
+            background-color: rgba(211, 211, 211, 0.623);
            
           
           }
@@ -240,7 +237,7 @@ a.links:hover {
           }
           
           .contact-form .form-field {
-            position: relative;
+            position:relative;
             margin: 32px 0;
           }
           .contact-form .input-text {
