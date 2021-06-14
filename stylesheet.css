@@ -251,7 +251,7 @@ a.links:hover {
             font-weight: 400;
           }
           .contact-form .input-text:focus {
-            outline: none;
+            outline:auto;
           }
           .contact-form .input-text:focus + .label,
           .contact-form .input-text.not-empty + .label {
@@ -259,11 +259,11 @@ a.links:hover {
                     transform: translateY(-24px);
           }
           .contact-form .label {
-            position: absolute;
+            position:relative;
             left: 20px;
             bottom: 11px;
             font-size: 18px;
-            line-height: 26px;
+            line-height: 50px;
             font-weight: 400;
             color: #5543ca;
             cursor: text;
