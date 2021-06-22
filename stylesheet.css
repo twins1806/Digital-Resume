@@ -200,18 +200,78 @@ a.links:hover {
         padding: 5px;
       }
     
-      
+      body {
+        font-family: 'Signika', sans-serif;
+     }
+     .bg-grey {
+        background: #292929;
+     }
+     
+     
+     footer {
+            color: grey;
+     }
+     footer p, a {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+     .btn-footer {
+                 color: grey;
+                text-decoration: none;
+                border: 1px solid;
+                border-radius: 43px;
+                font-size: 25px;
+                padding: 7px 30px;
+                line-height: 47px;
+                text-align: center;
+     }
+     .btn-footer:hover {
+                
+                text-decoration: none;
+               
+     }
+    
+    
+
+
+
+
+     .social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+     footer ul li {
+    list-style: none;
+    display: block;
+}
+  footer ul  {
+   padding-left: 0;
    
-        .footer{
-            background-color: lightskyblue;
-            text-align: center;
-            clear: both;
-            padding: 15px;
-            width: 100%;
+}
+footer ul  li a{
+  text-decoration: underline;
+  color: grey;
+  
+}
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+    
+}
+
+    
+    
+   
+        
             
             
             
-        }
+        
         .get-in-touch {
             max-width: 100%;
             margin: auto;
